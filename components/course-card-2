@@ -1,0 +1,54 @@
+<div class="course-card bg-white h-100 border p-2 shadow-sm rounded-4">
+  <div class="card-img rounded-3 overflow-hidden position-relative mb-3">
+    <img src="assets/images/img.png" alt="LMS" />
+
+    <div
+      class="card-badge position-absolute py-1 px-3 rounded-2 fw-medium text-primary bg-white shadow-sm"
+      style="top: 8px; left: 8px; font-size: 14px; line-height: 1"
+    >
+      Frontend
+    </div>
+  </div>
+
+  <div class="d-flex flex-column justify-content-between gap-2 p-2">
+    <div
+      class="d-flex align-items-center gap-1 text-warning border-bottom pb-2"
+    >
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+
+      <span style="color: var(--p)">(4.7)</span>
+    </div>
+
+    <h6 class="text-primary">دورة تطوير</h6>
+
+    <p class="fw-medium" style="font-size: 14px">
+      هل تواجه صعوبة في إدارة التدريب والتعليم داخل مؤسستك وتبحث عن نظام إدارة
+      تعلم احترافي...
+    </p>
+
+    <div class="card-meta small d-flex gap-3" style="font-size: 12px">
+      <p class="d-flex align-items-center gap-2 text-black fs-6">
+        <i class="bi bi-clock fs-5"></i>
+        10:10 صباحاً
+      </p>
+      <p class="d-flex align-items-center gap-2 text-black fs-6">
+        <i class="bi bi-calendar3 fs-5"></i> 11 محاضره
+      </p>
+    </div>
+
+    <div
+      class="d-flex justify-content-between align-items-center gap-2 border-top pt-2"
+    >
+      <span class="text-primary fw-semibold fs-3">$99</span>
+      <a
+        href="course-details.html"
+        class="text-secondary border-bottom border-secondary"
+        >عرض تفاصيل الدورة</a
+      >
+    </div>
+  </div>
+</div>
