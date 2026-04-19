@@ -16,6 +16,7 @@
 :root {
   --bs-primary-rgb: 39, 29, 64;
   --bs-secondary-rgb: 2, 223, 153;
+  --bs-danger-rgb: 104, 0, 0;
 }
 
 html {
@@ -410,7 +411,7 @@ h6 {
 
 .stactics-card-center {
   @media (width >= 768px) {
-    transform: translateY(-20%);
+    transform: translateY(-40px);
   }
 }
 

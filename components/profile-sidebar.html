@@ -40,7 +40,11 @@
         البيانات الشخصية
       </a>
 
-      <button class="profile-link danger">
+      <button
+        class="profile-link danger"
+        data-bs-toggle="modal"
+        data-bs-target="#logoutModal"
+      >
         <span><i class="bi bi-box-arrow-right"></i></span>
         تسجيل الخروج
       </button>
@@ -114,10 +118,51 @@
         البيانات الشخصية
       </a>
 
-      <button class="profile-link danger">
+      <button
+        class="profile-link danger"
+        data-bs-toggle="modal"
+        data-bs-target="#logoutModal"
+      >
         <span><i class="bi bi-box-arrow-right"></i></span>
         تسجيل الخروج
       </button>
     </nav>
+  </div>
+</div>
+
+<div
+  class="modal fade"
+  id="logoutModal"
+  tabindex="-1"
+  aria-labelledby="logoutModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0 justify-content-between">
+        <h5 class="modal-title" id="logoutModalLabel">تأكيد تسجيل الخروج</h5>
+        <button
+          type="button"
+          class="btn-close m-0"
+          data-bs-dismiss="modal"
+        ></button>
+      </div>
+
+      <div class="modal-body text-center">
+        هل أنت متأكد أنك تريد تسجيل الخروج؟
+      </div>
+
+      <div class="modal-footer border-0 d-flex justify-content-center gap-2">
+        <button
+          type="button"
+          class="btn btn-secondary px-4"
+          data-bs-dismiss="modal"
+        >
+          إلغاء
+        </button>
+
+        <button type="button" class="btn btn-danger px-4">تسجيل الخروج</button>
+      </div>
+    </div>
   </div>
 </div>
