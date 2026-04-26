@@ -705,14 +705,6 @@ h6 {
   }
 }
 
-.trainer-card {
-  text-align: center;
-
-  @media (min-width: 768px) {
-    text-align: start;
-  }
-}
-
 .rotate-icon {
   transform: rotate(0deg);
 }
